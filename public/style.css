@@ -8,8 +8,33 @@ button:focus, input:focus {
     outline: none;
 }
 
+.btn-minus {
+    background-color: rgb(228, 108, 108);
+    border-radius: 2px;
+    color: white;
+    user-select: none;
+    border: none;
+    cursor: pointer;
+    opacity: 1;
+}
+ 
 .btn {
-    background-color: #F08080;
+     
+    background-color: rgb(228, 108, 108);
+    border-radius: 2px;
+    color: white;
+    user-select: none;
+    border: none;
+    cursor: pointer;
+    opacity: 1;
+}
+
+[v-cloak]{
+  display: none !important;  
+}
+
+.btn-add {
+    background-color: rgb(100, 175, 84);
     border-radius: 2px;
     color: white;
     user-select: none;
@@ -228,4 +253,12 @@ h1 {
 
 .cart ul .cart-item button {
     margin-right: 3px;
+}
+
+.fade-enter-active{
+    transition: opacity .5s
+}
+
+.fade-enter, .fade-enter-leave{
+    opacity: 0
 }
